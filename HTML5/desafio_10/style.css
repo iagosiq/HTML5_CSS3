@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'ciber';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+/* Regras gerais */
+body{
+    background-color: rgba(190, 239, 190, 0.669);
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    text-indent: 2em;
+    padding: 10px;
+    width: 90%;
+}
+
+/* Caberario */
+#cabeca{
+    background-image: linear-gradient(to top, rgb(30, 80, 30),rgb(55, 139, 55), rgb(80, 190, 80), rgb(107, 252, 107));
+    text-align: center;
+    color: white;
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.241);
+}
+
+#cabeca > h1{
+    font-size: 3em;
+    margin: auto;
+}
+#cabeca > p{
+    width: 500px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+/* Menu de navegação */
+header > nav a{
+    color: white;
+    text-decoration: none;
+}
+header > nav {
+    background-color: rgb(30, 80, 30);
+    width: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.241);
+}
+
+.link{
+    padding: 5px;
+}
+.link:hover{
+    text-decoration: underline;
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.681), rgba(255, 255, 255, 0.033));
+    border-radius: 10px;
+}
+
+/* Fundo Branco - Texto principal */
+main{
+    background-color: white;
+    margin: auto;
+    padding-top: 1px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.241);
+    max-width: 800px;
+}
+
+/* Edição dos textos principais */
+main > h1{
+    font-family: 'ciber';
+    color: rgb(0, 68, 0);
+    padding-left: 3px;
+}
+
+main > h2{
+    font-family: 'ciber';
+    color: green;
+    background-image: linear-gradient(to right, rgba(0, 128, 0, 0.464) , white 70%);
+    padding-left: 5px;
+}
+#bug{
+    display: block;
+    margin: auto;
+}
+#videoback{
+    margin: auto;
+    padding: 15px;
+    background-color: green;
+    max-width: 94%;
+}
+
+#video{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+/* Box com informações extras */
+#extra{
+    background-color: rgba(110, 220, 110, 0.422);
+    padding: 0px 0px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.169);
+}
+
+#extra > h3{
+    background-color: green;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Organização da lista */
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: underline;
+
+}
+.lista li{
+    width: 50%;
+}
+
+
+/* Rodapé */
+footer{
+    background-color: green;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
