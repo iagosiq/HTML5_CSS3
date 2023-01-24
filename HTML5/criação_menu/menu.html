@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste menu</title>
+    <style>
+        @keyframes slideDown {
+            from{
+                transform: translateY(-10px);
+                opacity: 0;
+            }
+            to{
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        .menu{
+            position: relative;
+            background-color: aqua;
+            border: 1px solid black;
+            width: 100px;
+            margin-bottom: 0px;
+        }
+        .menu_option{
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            display: none;
+        }
+        .menu:hover .menu_option{
+            display: block;
+            animation: slideDown 0.5s ease;
+            background-color: rgba(0, 255, 255, 0.111);
+            border: 1px solid rgba(0, 0, 0, 0.436);
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="menu_button">Menu</div>
+        <ul class="menu_option">
+        <li>Opção 1</li>
+        <li>Opção 2</li>
+        <li>Opção 3</li>
+    </ul>
+    </div>
+</body>
+</html>
