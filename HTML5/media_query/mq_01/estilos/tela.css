@@ -28,4 +28,13 @@ menu  ul {
 menu li {
     display: inline-block;
     background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article {
+    width: 600px;
+    display: block;
+    margin: auto;
 }
