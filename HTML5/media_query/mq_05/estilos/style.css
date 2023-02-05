@@ -22,12 +22,12 @@ header > h1 {
 #burguer {
     background-color: rgb(42, 42, 42);
     width: 100vw;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
 }
 #burguer:hover {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.478);
     color: black;
     cursor: pointer;
 }
